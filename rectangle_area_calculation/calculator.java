@@ -1,14 +1,11 @@
-import java.util.Scanner;
-
 class Demo{
     
     public static void printArea(int width, int height){
         System.out.println(width*height);
     }
     public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
-        int width = read.nextInt();
-        int height = read.nextInt();
+        int width = 1280;
+        int height = 760;
         printArea(width, height);
     }
 
